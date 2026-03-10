@@ -1,0 +1,1056 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hélder Santana | Network Engineer & Cybersecurity Analyst</title>
+    
+    <!-- Preconnect para melhor performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;900&family=Rajdhani:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    
+    <!-- Meta tags otimizadas -->
+    <meta name="description" content="Hélder Santana - Network Engineer especialista em FortiGate, Sophos, Cisco, Blue Team e automação Python. 7+ anos de experiência em infraestrutura de redes corporativas globais.">
+    <meta name="keywords" content="Network Engineer, Cybersecurity, FortiGate, Sophos, Cisco, Python, Blue Team, SOC, SIEM">
+    <meta name="author" content="Hélder Santana">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='45' fill='%230066ff'/><text x='50' y='70' font-size='60' text-anchor='middle' fill='white' font-family='Arial'>🛡️</text></svg>">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Hélder Santana - Network & Security">
+    <meta property="og:description" content="Network Engineer & Cybersecurity Analyst">
+    <meta property="og:type" content="website">
+</head>
+<body>
+    <!-- Canvas para efeitos visuais -->
+    <canvas id="particleCanvas"></canvas>
+
+    <!-- Navigation - Mais clean e simétrica -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">
+                <i class="fas fa-shield-halved"></i>
+                <span class="logo-text">HÉLDER<span class="highlight">.SANTANA</span></span>
+            </a>
+            
+            <div class="nav-menu" id="navMenu">
+                <a href="#home" class="nav-link active"><i class="fas fa-terminal"></i> Home</a>
+                <a href="#about" class="nav-link"><i class="fas fa-user-shield"></i> Sobre</a>
+                <a href="#skills" class="nav-link"><i class="fas fa-code"></i> Skills</a>
+                <a href="#services" class="nav-link"><i class="fas fa-server"></i> Serviços</a>
+                <a href="#experience" class="nav-link"><i class="fas fa-briefcase"></i> Experiência</a>
+                <a href="#certifications" class="nav-link"><i class="fas fa-certificate"></i> Formação</a>
+                <a href="#lab" class="nav-link"><i class="fas fa-flask"></i> Lab</a>
+                <a href="#contact" class="nav-link"><i class="fas fa-envelope"></i> Contato</a>
+            </div>
+            
+            <div class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section - Mais equilibrada -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <div class="hero-badge">
+                <span class="badge-dot"></span>
+                <span>DISPONÍVEL PARA NOVOS DESAFIOS</span>
+            </div>
+            
+            <div class="glitch-wrapper">
+                <h1 class="glitch" data-text="HÉLDER SANTANA">HÉLDER SANTANA</h1>
+            </div>
+            
+            <h2 class="hero-subtitle">Network Engineer · Cybersecurity · Python Automation</h2>
+            
+            <div class="typing-wrapper">
+                <span class="typing-prefix">helder@network:~$ </span>
+                <span class="typing-text" id="typingText"></span>
+                <span class="cursor">█</span>
+            </div>
+            
+            <p class="hero-description">
+                Especialista em <span class="highlight">Firewalls FortiGate, Sophos XG e Cisco ASA</span> 
+                com 7+ anos de experiência em ambientes corporativos globais. Atuação em 
+                <span class="highlight">Blue Team / SOC</span>, monitoramento com 
+                <span class="highlight">SIEM</span> e automação de redes com 
+                <span class="highlight">Python</span>.
+            </p>
+            
+            <div class="hero-buttons">
+                <a href="#contact" class="btn btn-primary">
+                    <i class="fas fa-paper-plane"></i> Contratar
+                    <span class="btn-glow"></span>
+                </a>
+                <a href="#skills" class="btn btn-outline">
+                    <i class="fas fa-shield-halved"></i> Competências
+                </a>
+            </div>
+            
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-number" data-target="7">7</span>+
+                    <span class="stat-label">Anos Exp.</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="6">6</span>+
+                    <span class="stat-label">Firewalls</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="8">8</span>+
+                    <span class="stat-label">Switches</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="30">30</span>+
+                    <span class="stat-label">Certificações</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="hero-visual">
+            <div class="cyber-shield">
+                <div class="shield-ring ring-1"></div>
+                <div class="shield-ring ring-2"></div>
+                <div class="shield-ring ring-3"></div>
+                <div class="shield-core">
+                    <i class="fas fa-shield-halved"></i>
+                </div>
+                <div class="orbit-icon orbit-1"><i class="fas fa-fire"></i></div>
+                <div class="orbit-icon orbit-2"><i class="fas fa-network-wired"></i></div>
+                <div class="orbit-icon orbit-3"><i class="fab fa-python"></i></div>
+                <div class="orbit-icon orbit-4"><i class="fas fa-ethernet"></i></div>
+            </div>
+        </div>
+        
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <span>SCROLL</span>
+        </div>
+    </section>
+
+    <!-- About Section - Mais organizada -->
+    <section class="section" id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">// about</span>
+                <h2 class="section-title">Sobre <span class="highlight">Hélder Santana</span></h2>
+                <div class="section-line"></div>
+                <p class="section-subtitle">Network Engineer apaixonado por segurança e automação</p>
+            </div>
+            
+            <div class="about-grid">
+                <div class="about-image">
+                    <div class="image-frame">
+                        <div class="frame-corner top-left"></div>
+                        <div class="frame-corner top-right"></div>
+                        <div class="frame-corner bottom-left"></div>
+                        <div class="frame-corner bottom-right"></div>
+                        
+                        <div class="profile-placeholder">
+                            <i class="fas fa-user-shield"></i>
+                            <span>HS</span>
+                        </div>
+                        
+                        <div class="image-status-bar">
+                            <span class="status-online">
+                                <i class="fas fa-circle"></i> Disponível
+                            </span>
+                            <span class="status-role">Network & Security</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-content">
+                    <div class="terminal-window">
+                        <div class="terminal-header">
+                            <div class="terminal-dots">
+                                <span class="dot red"></span>
+                                <span class="dot yellow"></span>
+                                <span class="dot green"></span>
+                            </div>
+                            <span class="terminal-title">helder@network:~/about</span>
+                        </div>
+                        
+                        <div class="terminal-body">
+                            <p><span class="prompt">$</span> <span class="command">cat profile.md</span></p>
+                            <br>
+                            <p class="terminal-output">
+                                Network Engineer com sólida experiência em administração de firewalls 
+                                <span class="highlight-text">FortiGate</span>, <span class="highlight-text">Sophos XG</span>, 
+                                <span class="highlight-text">Cisco ASA</span>, <span class="highlight-text">Palo Alto</span> e 
+                                <span class="highlight-text">pfSense</span>. Gerenciamento de switches Cisco, HPE, Aruba, 
+                                Datacom, Dell e Avaya em ambientes corporativos de grande porte.
+                            </p>
+                            <br>
+                            <p class="terminal-output">
+                                Atuação em <span class="highlight-text">Blue Team / SOC</span> com Splunk, Wazuh (SIEM/XDR), 
+                                Nessus e Sophos Central. Experiência em suporte global na WEG atendendo Índia, China, 
+                                Austrália e África. Automação de redes com Python para backup de configurações, 
+                                parsing de logs e integração com APIs.
+                            </p>
+                            <br>
+                            <p class="terminal-output">
+                                <span class="prompt">$</span> <span class="command">echo $FOCUS</span><br>
+                                "Network Defense · Threat Detection · Python Automation · Infrastructure Security"
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="about-info-grid">
+                        <div class="info-card">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <span class="info-label">Localização</span>
+                                <span class="info-value">Tatuí — SP</span>
+                            </div>
+                        </div>
+                        <div class="info-card">
+                            <i class="fas fa-language"></i>
+                            <div>
+                                <span class="info-label">Idiomas</span>
+                                <span class="info-value">PT · EN (intermediário)</span>
+                            </div>
+                        </div>
+                        <div class="info-card">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <span class="info-label">Experiência</span>
+                                <span class="info-value">7+ anos</span>
+                            </div>
+                        </div>
+                        <div class="info-card">
+                            <i class="fas fa-graduation-cap"></i>
+                            <div>
+                                <span class="info-label">Formação</span>
+                                <span class="info-value">Segurança da Informação</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section - Cards mais equilibrados -->
+    <section class="section section-dark" id="skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">// skills</span>
+                <h2 class="section-title">Arsenal <span class="highlight">Técnico</span></h2>
+                <div class="section-line"></div>
+                <p class="section-subtitle">Competências em Network Engineering, Cybersecurity e Automação</p>
+            </div>
+
+            <div class="skills-tabs">
+                <button class="tab-btn active" data-tab="network">
+                    <i class="fas fa-network-wired"></i> Networking
+                </button>
+                <button class="tab-btn" data-tab="firewall">
+                    <i class="fas fa-fire"></i> Firewalls
+                </button>
+                <button class="tab-btn" data-tab="switching">
+                    <i class="fas fa-ethernet"></i> Switching
+                </button>
+                <button class="tab-btn" data-tab="security">
+                    <i class="fas fa-shield-virus"></i> Blue Team
+                </button>
+                <button class="tab-btn" data-tab="automation">
+                    <i class="fab fa-python"></i> Automation
+                </button>
+            </div>
+
+            <!-- Networking Tab -->
+            <div class="tab-content active" id="network">
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fas fa-network-wired"></i></div>
+                        <h3>TCP/IP & Protocolos</h3>
+                        <p>Modelo OSI/TCP-IP, DNS, DHCP, NAT, ARP, ICMP. Troubleshooting avançado.</p>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="95"></div>
+                        </div>
+                        <div class="skill-tags">
+                            <span>TCP/IP</span><span>DNS</span><span>DHCP</span><span>NAT</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fas fa-project-diagram"></i></div>
+                        <h3>Roteamento</h3>
+                        <p>OSPF, BGP, rotas estáticas. Redistribuição e políticas em multi-vendor.</p>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="88"></div>
+                        </div>
+                        <div class="skill-tags">
+                            <span>OSPF</span><span>BGP</span><span>Static</span><span>Policy</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fas fa-globe"></i></div>
+                        <h3>VPN & SD-WAN</h3>
+                        <p>IPSec Site-to-Site, SSL VPN, SD-WAN com failover e balanceamento.</p>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="92"></div>
+                        </div>
+                        <div class="skill-tags">
+                            <span>IPSec</span><span>SSL VPN</span><span>SD-WAN</span><span>HA</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fas fa-diagram-project"></i></div>
+                        <h3>Network Design</h3>
+                        <p>Topologias, documentação, cabeamento estruturado CAT5e/6/7.</p>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="90"></div>
+                        </div>
+                        <div class="skill-tags">
+                            <span>Topologia</span><span>CAT6</span><span>Racks</span><span>Docs</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Firewalls Tab -->
+            <div class="tab-content" id="firewall">
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fas fa-fire-flame-curved"></i></div>
+                        <h3>FortiGate</h3>
+                        <p>Administração completa: VPN, SD-WAN, IPS, FSSO, HA, WAF, App Control.</p>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="95"></div>
+                        </div>
+                        <div class="skill-tags">
+                            <span>FortiGate</span><span>FortiOS</span><span>SD-WAN</span><span>FSSO</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fas fa-shield-halved"></i></div>
+                        <h3>Sophos XG</h3>
+                        <p>Web Filter, App Control, WAF, EDR, MFA, Sophos Central.</p>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="90"></div>
+                        </div>
+                        <div class="skill-tags">
+                            <span>Sophos XG</span><span>Central</span><span>EDR</span><span>MFA</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fas fa-building-shield"></i></div>
+                        <h3>Cisco & Palo Alto</h3>
+                        <p>Cisco ASA, Palo Alto Networks. Políticas, VPN, integração corporativa.</p>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="85"></div>
+                        </div>
+                        <div class="skill-tags">
+                            <span>Cisco ASA</span><span>Palo Alto</span><span>ASDM</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fas fa-filter"></i></div>
+                        <h3>pfSense/OPNsense</h3>
+                        <p>Firewalls open-source, NAT, VIPs, VPN, IPS, alta disponibilidade.</p>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="88"></div>
+                        </div>
+                        <div class="skill-tags">
+                            <span>pfSense</span><span>OPNsense</span><span>SonicWall</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Switching Tab -->
+            <div class="tab-content" id="switching">
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fas fa-ethernet"></i></div>
+                        <h3>Cisco Catalyst</h3>
+                        <p>VLANs, trunks, STP, port security, EtherChannel, IOS.</p>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="92"></div>
+                        </div>
+                        <div class="skill-tags">
+                            <span>Catalyst</span><span>IOS</span><span>VLAN</span><span>STP</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fas fa-sitemap"></i></div>
+                        <h3>HPE · Aruba · Datacom</h3>
+                        <p>Multi-vendor: HPE, Aruba, Datacom, Dell, Avaya, Allied.</p>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="90"></div>
+                        </div>
+                        <div class="skill-tags">
+                            <span>HPE</span><span>Aruba</span><span>Datacom</span><span>Dell</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fas fa-wifi"></i></div>
+                        <h3>Wireless</h3>
+                        <p>Aruba, Ubiquiti, Cisco WLC. 802.1X, planejamento de cobertura.</p>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="85"></div>
+                        </div>
+                        <div class="skill-tags">
+                            <span>Aruba</span><span>Ubiquiti</span><span>Cisco WLC</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fas fa-plug"></i></div>
+                        <h3>Infraestrutura Física</h3>
+                        <p>Cabeamento CAT5e/6/7, racks, patch panels, CFTV IP.</p>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="90"></div>
+                        </div>
+                        <div class="skill-tags">
+                            <span>CAT6/7</span><span>Racks</span><span>CFTV</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Security Tab -->
+            <div class="tab-content" id="security">
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fas fa-magnifying-glass-chart"></i></div>
+                        <h3>SIEM - Splunk & Wazuh</h3>
+                        <p>Correlação de logs, dashboards, detecção de anomalias.</p>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="88"></div>
+                        </div>
+                        <div class="skill-tags">
+                            <span>Splunk</span><span>Wazuh</span><span>SIEM</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fas fa-chart-line"></i></div>
+                        <h3>Monitoramento</h3>
+                        <p>Zabbix, Grafana, Cisco Prime, SNMP, dashboards em tempo real.</p>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="90"></div>
+                        </div>
+                        <div class="skill-tags">
+                            <span>Zabbix</span><span>Grafana</span><span>SNMP</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fas fa-bug"></i></div>
+                        <h3>Vulnerability Assessment</h3>
+                        <p>Nessus, identificação de riscos, priorização CVSS.</p>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="85"></div>
+                        </div>
+                        <div class="skill-tags">
+                            <span>Nessus</span><span>CVSS</span><span>Remediation</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fas fa-triangle-exclamation"></i></div>
+                        <h3>Incident Response</h3>
+                        <p>SOC operations, EDR, MFA, Anti-Spam, criptografia.</p>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="87"></div>
+                        </div>
+                        <div class="skill-tags">
+                            <span>SOC</span><span>IR</span><span>EDR</span><span>MFA</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Automation Tab -->
+            <div class="tab-content" id="automation">
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fab fa-python"></i></div>
+                        <h3>Python Automation</h3>
+                        <p>Netmiko, Paramiko, REST APIs, parsing de logs, backups.</p>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="72"></div>
+                        </div>
+                        <div class="skill-tags">
+                            <span>Python 3</span><span>Netmiko</span><span>API</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fab fa-linux"></i></div>
+                        <h3>Linux Admin</h3>
+                        <p>Ubuntu, Debian, RHEL, CentOS, hardening, shell script.</p>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="88"></div>
+                        </div>
+                        <div class="skill-tags">
+                            <span>Ubuntu</span><span>RHEL</span><span>Bash</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fas fa-cubes"></i></div>
+                        <h3>Virtualização</h3>
+                        <p>Hyper-V, VMware, vSphere, templates, migração.</p>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="82"></div>
+                        </div>
+                        <div class="skill-tags">
+                            <span>Hyper-V</span><span>VMware</span><span>vSphere</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fas fa-terminal"></i></div>
+                        <h3>Shell Scripting</h3>
+                        <p>Bash, cron jobs, automação de tarefas, monitoramento.</p>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="75"></div>
+                        </div>
+                        <div class="skill-tags">
+                            <span>Bash</span><span>Shell</span><span>Cron</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tools Grid -->
+            <div class="tools-section">
+                <h3 class="tools-title">
+                    <i class="fas fa-toolbox"></i> Stack Tecnológico
+                </h3>
+                <div class="tools-grid">
+                    <div class="tool-item"><i class="fas fa-fire"></i><span>FortiGate</span></div>
+                    <div class="tool-item"><i class="fas fa-shield-halved"></i><span>Sophos XG</span></div>
+                    <div class="tool-item"><i class="fas fa-building-shield"></i><span>Cisco ASA</span></div>
+                    <div class="tool-item"><i class="fas fa-fire-flame-curved"></i><span>Palo Alto</span></div>
+                    <div class="tool-item"><i class="fas fa-filter"></i><span>pfSense</span></div>
+                    <div class="tool-item"><i class="fas fa-shield-virus"></i><span>SonicWall</span></div>
+                    <div class="tool-item"><i class="fas fa-magnifying-glass-chart"></i><span>Splunk</span></div>
+                    <div class="tool-item"><i class="fas fa-eye"></i><span>Wazuh</span></div>
+                    <div class="tool-item"><i class="fas fa-chart-area"></i><span>Zabbix</span></div>
+                    <div class="tool-item"><i class="fas fa-chart-pie"></i><span>Grafana</span></div>
+                    <div class="tool-item"><i class="fas fa-bug"></i><span>Nessus</span></div>
+                    <div class="tool-item"><i class="fas fa-satellite-dish"></i><span>Cisco Prime</span></div>
+                    <div class="tool-item"><i class="fab fa-python"></i><span>Python</span></div>
+                    <div class="tool-item"><i class="fab fa-linux"></i><span>Linux</span></div>
+                    <div class="tool-item"><i class="fas fa-terminal"></i><span>Cisco IOS</span></div>
+                    <div class="tool-item"><i class="fas fa-ethernet"></i><span>Aruba</span></div>
+                    <div class="tool-item"><i class="fas fa-server"></i><span>HPE</span></div>
+                    <div class="tool-item"><i class="fas fa-cubes"></i><span>VMware</span></div>
+                    <div class="tool-item"><i class="fas fa-cube"></i><span>Hyper-V</span></div>
+                    <div class="tool-item"><i class="fas fa-wifi"></i><span>Ubiquiti</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section - Mais elegante -->
+    <section class="section" id="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">// services</span>
+                <h2 class="section-title">Áreas de <span class="highlight">Atuação</span></h2>
+                <div class="section-line"></div>
+                <p class="section-subtitle">Soluções completas em infraestrutura e segurança</p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card featured">
+                    <span class="featured-badge">PRINCIPAL</span>
+                    <div class="service-icon"><i class="fas fa-network-wired"></i></div>
+                    <h3>Network Engineering</h3>
+                    <p>Projeto e implementação de redes corporativas complexas, multi-vendor e multi-site.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check-circle"></i> Switches Cisco, HPE, Aruba, Datacom</li>
+                        <li><i class="fas fa-check-circle"></i> VLANs, STP, OSPF, BGP, SD-WAN</li>
+                        <li><i class="fas fa-check-circle"></i> Wireless enterprise</li>
+                        <li><i class="fas fa-check-circle"></i> Cabeamento estruturado</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card featured">
+                    <span class="featured-badge">PRINCIPAL</span>
+                    <div class="service-icon"><i class="fas fa-shield-virus"></i></div>
+                    <h3>Cybersecurity</h3>
+                    <p>Blue Team operations, monitoramento SIEM e resposta a incidentes.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check-circle"></i> SIEM: Splunk, Wazuh</li>
+                        <li><i class="fas fa-check-circle"></i> Firewalls FortiGate, Sophos</li>
+                        <li><i class="fas fa-check-circle"></i> Vulnerability Assessment</li>
+                        <li><i class="fas fa-check-circle"></i> EDR, MFA, IPS, WAF</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon"><i class="fab fa-python"></i></div>
+                    <h3>Python Automation</h3>
+                    <p>Automação de tarefas de rede para aumentar eficiência.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check-circle"></i> Backup automático</li>
+                        <li><i class="fas fa-check-circle"></i> Parsing de logs</li>
+                        <li><i class="fas fa-check-circle"></i> Integração com APIs</li>
+                        <li><i class="fas fa-check-circle"></i> Relatórios customizados</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-globe"></i></div>
+                    <h3>Global Support</h3>
+                    <p>Experiência em suporte global atendendo equipes internacionais.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check-circle"></i> Suporte 24/7</li>
+                        <li><i class="fas fa-check-circle"></i> Monitoramento avançado</li>
+                        <li><i class="fas fa-check-circle"></i> Documentação técnica</li>
+                        <li><i class="fas fa-check-circle"></i> Troubleshooting remoto</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section - Timeline mais limpa -->
+    <section class="section section-dark" id="experience">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">// experience</span>
+                <h2 class="section-title">Trajetória <span class="highlight">Profissional</span></h2>
+                <div class="section-line"></div>
+                <p class="section-subtitle">7+ anos construindo e protegendo infraestruturas</p>
+            </div>
+            
+            <div class="timeline">
+                <div class="timeline-item left">
+                    <div class="timeline-content">
+                        <span class="timeline-date"><i class="fas fa-calendar"></i> Out/2024 — Jan/2026</span>
+                        <h3>Administrador de Redes</h3>
+                        <h4>WEG · Jaraguá do Sul, SC</h4>
+                        <p>Rede corporativa global, firewalls FortiGate/Palo Alto, switches Cisco, monitoramento Splunk.</p>
+                        <div class="timeline-tags">
+                            <span>FortiGate</span><span>Palo Alto</span><span>Cisco</span><span>Splunk</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item right">
+                    <div class="timeline-content">
+                        <span class="timeline-date"><i class="fas fa-calendar"></i> Abr/2024 — Jul/2024</span>
+                        <h3>Analista de Redes e Segurança</h3>
+                        <h4>Flowti · Remoto</h4>
+                        <p>FortiGate, SonicWall, pfSense. VPN, SD-WAN, FSSO, alta disponibilidade.</p>
+                        <div class="timeline-tags">
+                            <span>FortiGate</span><span>SonicWall</span><span>SD-WAN</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item left">
+                    <div class="timeline-content">
+                        <span class="timeline-date"><i class="fas fa-calendar"></i> Mai/2022 — Jun/2023</span>
+                        <h3>Analista de Segurança Pleno - SOC</h3>
+                        <h4>STRATI · Remoto</h4>
+                        <p>Sophos XG, FortiGate, Wazuh, Nessus, EDR, MFA, resposta a incidentes.</p>
+                        <div class="timeline-tags">
+                            <span>Sophos XG</span><span>Wazuh</span><span>Nessus</span><span>SOC</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item right">
+                    <div class="timeline-content">
+                        <span class="timeline-date"><i class="fas fa-calendar"></i> Nov/2021 — Mai/2022</span>
+                        <h3>Analista de Infraestrutura</h3>
+                        <h4>UMC · Mogi das Cruzes, SP</h4>
+                        <p>Sophos XG, switches HPE, Zabbix, Grafana, Hyper-V, VMware.</p>
+                        <div class="timeline-tags">
+                            <span>Sophos</span><span>HPE</span><span>Zabbix</span><span>VMware</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item left">
+                    <div class="timeline-content">
+                        <span class="timeline-date"><i class="fas fa-calendar"></i> Abr/2018 — Jun/2021</span>
+                        <h3>Técnico de Redes</h3>
+                        <h4>Vikstar · São Paulo, SP</h4>
+                        <p>FortiGate, multi-vendor switching, Aruba wireless, cabeamento estruturado.</p>
+                        <div class="timeline-tags">
+                            <span>FortiGate</span><span>Multi-vendor</span><span>Aruba</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item right">
+                    <div class="timeline-content">
+                        <span class="timeline-date"><i class="fas fa-graduation-cap"></i> 2016 — 2019</span>
+                        <h3>Tecnólogo em Segurança da Informação</h3>
+                        <h4>UNINOVE · São Paulo, SP</h4>
+                        <div class="timeline-tags">
+                            <span>Graduação</span><span>Segurança</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section - Mais organizada -->
+    <section class="section" id="certifications">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">// learning</span>
+                <h2 class="section-title">Formação <span class="highlight">Continuada</span></h2>
+                <div class="section-line"></div>
+                <p class="section-subtitle">Sempre atualizado com as últimas tecnologias</p>
+            </div>
+
+            <!-- Em Andamento -->
+            <div class="cert-category">
+                <h3 class="cert-category-title">
+                    <i class="fas fa-spinner fa-spin"></i> Em Andamento
+                    <span class="cert-date">2025 — Atual</span>
+                </h3>
+                <div class="cert-grid">
+                    <div class="cert-card studying">
+                        <div class="cert-icon"><i class="fas fa-microscope"></i></div>
+                        <h4>Engenharia Reversa e Análise de Malware</h4>
+                        <p>Análise estática/dinâmica de malware</p>
+                        <span class="cert-status">Em andamento</span>
+                    </div>
+                    <div class="cert-card studying">
+                        <div class="cert-icon"><i class="fas fa-shield-virus"></i></div>
+                        <h4>Segurança - Ataque x Defesa</h4>
+                        <p>Red Team vs Blue Team</p>
+                        <span class="cert-status">Em andamento</span>
+                    </div>
+                    <div class="cert-card studying">
+                        <div class="cert-icon"><i class="fas fa-search"></i></div>
+                        <h4>Análise Forense Digital</h4>
+                        <p>Coleta e análise de evidências</p>
+                        <span class="cert-status">Em andamento</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cursos Udemy -->
+            <div class="cert-category">
+                <h3 class="cert-category-title">
+                    <i class="fas fa-graduation-cap"></i> Cursos Udemy
+                </h3>
+                <div class="cert-grid">
+                    <div class="cert-card">
+                        <div class="cert-icon"><i class="fas fa-fire"></i></div>
+                        <h4>Implantação FortiGate</h4>
+                        <span class="cert-status completed">Concluído</span>
+                    </div>
+                    <div class="cert-card">
+                        <div class="cert-icon"><i class="fas fa-terminal"></i></div>
+                        <h4>Troubleshooting FortiGate CLI</h4>
+                        <span class="cert-status completed">Concluído</span>
+                    </div>
+                    <div class="cert-card">
+                        <div class="cert-icon"><i class="fas fa-award"></i></div>
+                        <h4>Preparatório NSE4</h4>
+                        <span class="cert-status completed">Concluído</span>
+                    </div>
+                    <div class="cert-card">
+                        <div class="cert-icon"><i class="fas fa-eye"></i></div>
+                        <h4>Wazuh SIEM/XDR</h4>
+                        <span class="cert-status completed">Concluído</span>
+                    </div>
+                    <div class="cert-card">
+                        <div class="cert-icon"><i class="fas fa-network-wired"></i></div>
+                        <h4>CCNA 200-301</h4>
+                        <span class="cert-status completed">Concluído</span>
+                    </div>
+                    <div class="cert-card">
+                        <div class="cert-icon"><i class="fas fa-filter"></i></div>
+                        <h4>OPNsense Firewall</h4>
+                        <span class="cert-status completed">Concluído</span>
+                    </div>
+                    <div class="cert-card">
+                        <div class="cert-icon"><i class="fas fa-chart-area"></i></div>
+                        <h4>Dominando Zabbix</h4>
+                        <span class="cert-status completed">Concluído</span>
+                    </div>
+                    <div class="cert-card">
+                        <div class="cert-icon"><i class="fab fa-python"></i></div>
+                        <h4>Python 3 Completo</h4>
+                        <span class="cert-status completed">Concluído</span>
+                    </div>
+                    <div class="cert-card">
+                        <div class="cert-icon"><i class="fab fa-linux"></i></div>
+                        <h4>LPIC-1</h4>
+                        <span class="cert-status completed">Concluído</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 4Linux -->
+            <div class="cert-category">
+                <h3 class="cert-category-title">
+                    <i class="fab fa-linux"></i> 4Linux
+                </h3>
+                <div class="cert-grid">
+                    <div class="cert-card">
+                        <div class="cert-icon"><i class="fab fa-linux"></i></div>
+                        <h4>Linux System Administration</h4>
+                        <span class="cert-status completed">Concluído</span>
+                    </div>
+                    <div class="cert-card">
+                        <div class="cert-icon"><i class="fas fa-gears"></i></div>
+                        <h4>Linux Servers - DevOps</h4>
+                        <span class="cert-status completed">Concluído</span>
+                    </div>
+                    <div class="cert-card">
+                        <div class="cert-icon"><i class="fas fa-shield-halved"></i></div>
+                        <h4>Linux Security</h4>
+                        <span class="cert-status completed">Concluído</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section - Cards equilibrados -->
+    <section class="section section-dark" id="lab">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">// projects</span>
+                <h2 class="section-title">Projetos & <span class="highlight">Laboratório</span></h2>
+                <div class="section-line"></div>
+                <p class="section-subtitle">Estudos práticos e automações</p>
+            </div>
+            
+            <div class="lab-grid">
+                <div class="lab-card">
+                    <div class="lab-image">
+                        <div class="lab-icon"><i class="fas fa-fire"></i></div>
+                    </div>
+                    <div class="lab-content">
+                        <h3>Multi-Vendor Firewall Lab</h3>
+                        <p>pfSense, FortiGate VM, VPNs IPSec, SD-WAN em ambiente virtualizado.</p>
+                        <div class="lab-tags">
+                            <span>pfSense</span><span>FortiGate</span><span>VPN</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="lab-card">
+                    <div class="lab-image">
+                        <div class="lab-icon"><i class="fas fa-shield-virus"></i></div>
+                    </div>
+                    <div class="lab-content">
+                        <h3>SOC Lab - Wazuh</h3>
+                        <p>SIEM/XDR com Wazuh para detecção de ameaças e correlação de eventos.</p>
+                        <div class="lab-tags">
+                            <span>Wazuh</span><span>SIEM</span><span>XDR</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="lab-card">
+                    <div class="lab-image">
+                        <div class="lab-icon"><i class="fab fa-python"></i></div>
+                    </div>
+                    <div class="lab-content">
+                        <h3>Python Automation</h3>
+                        <p>Scripts para backup, parsing de logs e integração com APIs.</p>
+                        <div class="lab-tags">
+                            <span>Python</span><span>Netmiko</span><span>API</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="lab-card">
+                    <div class="lab-image">
+                        <div class="lab-icon"><i class="fas fa-chart-line"></i></div>
+                    </div>
+                    <div class="lab-content">
+                        <h3>Zabbix + Grafana Stack</h3>
+                        <p>Monitoramento completo com dashboards personalizados.</p>
+                        <div class="lab-tags">
+                            <span>Zabbix</span><span>Grafana</span><span>SNMP</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="lab-card">
+                    <div class="lab-image">
+                        <div class="lab-icon"><i class="fas fa-network-wired"></i></div>
+                    </div>
+                    <div class="lab-content">
+                        <h3>CCNA Lab - GNS3</h3>
+                        <p>OSPF, BGP, VLANs, STP em ambiente Cisco simulado.</p>
+                        <div class="lab-tags">
+                            <span>CCNA</span><span>OSPF</span><span>BGP</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="lab-card">
+                    <div class="lab-image">
+                        <div class="lab-icon"><i class="fab fa-linux"></i></div>
+                    </div>
+                    <div class="lab-content">
+                        <h3>Linux Hardening</h3>
+                        <p>Segurança de servidores Linux e análise forense.</p>
+                        <div class="lab-tags">
+                            <span>Linux</span><span>Hardening</span><span>Forense</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section - Mais clean -->
+    <section class="section" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">// contact</span>
+                <h2 class="section-title">Entre em <span class="highlight">Contato</span></h2>
+                <div class="section-line"></div>
+                <p class="section-subtitle">Disponível para novos projetos e oportunidades</p>
+            </div>
+            
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>Vamos conversar?</h3>
+                    <p>Estou disponível para projetos de infraestrutura, segurança e automação.</p>
+                    
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <div class="method-icon"><i class="fas fa-envelope"></i></div>
+                            <div>
+                                <span class="method-label">Email</span>
+                                <a href="mailto:helder.souza@proton.me">helder.souza@proton.me</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <div class="method-icon"><i class="fab fa-whatsapp"></i></div>
+                            <div>
+                                <span class="method-label">WhatsApp</span>
+                                <a href="https://wa.me/5511988700322">(11) 9 8870-0322</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <div class="method-icon"><i class="fab fa-linkedin-in"></i></div>
+                            <div>
+                                <span class="method-label">LinkedIn</span>
+                                <a href="https://linkedin.com/in/helderssan">/in/helderssan</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="availability-badge">
+                        <span class="availability-dot"></span>
+                        <span>Disponível para oportunidades remotas, presenciais ou híbridas</span>
+                    </div>
+                </div>
+                
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" placeholder="Seu nome" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <input type="email" placeholder="Seu email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <select required>
+                            <option value="">Assunto</option>
+                            <option value="network">Network Engineering</option>
+                            <option value="firewall">Projeto de Firewall</option>
+                            <option value="security">Cybersecurity</option>
+                            <option value="job">Oportunidade</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <textarea rows="4" placeholder="Sua mensagem" required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary btn-submit">
+                        <i class="fas fa-paper-plane"></i> Enviar Mensagem
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer - Simétrico e limpo -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <i class="fas fa-shield-halved"></i>
+                        <span>HÉLDER<span class="highlight">.SANTANA</span></span>
+                    </div>
+                    <p>Network Engineer & Cybersecurity Analyst</p>
+                    <p class="footer-tagline">Construindo redes seguras e automatizando defesas</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Navegação</h4>
+                    <a href="#about">Sobre</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#experience">Experiência</a>
+                    <a href="#contact">Contato</a>
+                </div>
+                
+                <div class="footer-social">
+                    <h4>Redes</h4>
+                    <div class="social-links">
+                        <a href="https://linkedin.com/in/helderssan" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://wa.me/5511988700322" class="social-link"><i class="fab fa-whatsapp"></i></a>
+                        <a href="mailto:helder.souza@proton.me" class="social-link"><i class="fas fa-envelope"></i></a>
+                    </div>
+                    <div class="footer-location">
+                        <i class="fas fa-map-marker-alt"></i> Tatuí — SP, Brasil
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Hélder Santana. Todos os direitos reservados.</p>
+                <p class="footer-status">
+                    <span class="status-dot"></span> All Systems Operational
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
